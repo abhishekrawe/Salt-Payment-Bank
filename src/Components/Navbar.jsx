@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from  '../images/logo.png';
+import logo from  '../images/sALT.jfif';
 
 function Navbar() {
    const [nav,setnav] = useState(false);
@@ -26,9 +26,9 @@ function Navbar() {
         </label>
         <ul className='menu'>
             <li><a href="#" className='active'>Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Download</a></li>
-            <li><a href="#">Features</a></li>
+            <li><a href="https://blog.salt.pe/">About Us</a></li>
+            <li><a href="https://app.salt.pe/signup/">Download</a></li>
+            <li><a href="salt.pe/">Website</a></li>
         </ul>
       </nav>
   ) 

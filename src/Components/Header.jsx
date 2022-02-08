@@ -6,10 +6,10 @@ function Header() {
   return <div id = 'main'>
       <Navbar/>
       <div className='name'>
-          <h1><span>Welcome to the </span> New Genration of Banking </h1>
-           <p className='details'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt!
-           </p>
-           <a href="#" className='cv-btn'>Download</a>
+          {/* <h1><span>Welcome to the </span> New Genration of Banking </h1>
+           <p className='details'>Not your average banking experience~
+           </p> */}
+           {/* <a href="#" className='cv-btn'>Download</a> */}
       </div>
       
   </div>;

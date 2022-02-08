@@ -22,7 +22,7 @@ const MainContent = () => {
   ));
   return (
   <div className="main_content">
-    <h3>Headphones</h3>
+    <h3> OnlineBanking </h3>
     {listItems}
   </div>
   )

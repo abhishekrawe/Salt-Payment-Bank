@@ -8,7 +8,7 @@ function FeaturesBox(props) {
     </div>
     <div className='s-b-text'>
       <h2> {props.title} </h2>
-      <p> Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+      <p> Don’t lose money for every dollar you earn..</p>
     </div>
 
   </div>;
