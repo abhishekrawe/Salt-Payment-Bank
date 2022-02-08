@@ -5,7 +5,7 @@ function Navbar() {
    const [nav,setnav] = useState(false);
 
    const changeBackground = () => {
-       if(windows.scrollY >= 50) {
+       if(window.scrollY >= 50) {
            setnav(true);
        }else {
            setnav(false);   
@@ -14,9 +14,9 @@ function Navbar() {
    window.addEventListener('scroll', changeBackground);
 
   return (
-      <nav className={}>
+      <nav className={nav ? 'nav active' : 'nav'}>
         <a href="#" className="logo">
-            <img src={} alt="" />
+            <img src={logo} alt="" />
 
         </a>
         <input type='checkbox' className='menu-btn' id='menu-btn'/>
@@ -25,7 +25,7 @@ function Navbar() {
             <span classname='nav-icon'></span>
         </label>
         <ul className='menu'>
-            <li><a href="#">Home</a></li>
+            <li><a href="#" className='active'>Home</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Download</a></li>
             <li><a href="#">Features</a></li>
