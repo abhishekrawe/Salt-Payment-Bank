@@ -6,7 +6,7 @@ import About from './Components/About';
 import Persentation from './Components/Presentaion';
 import MainContent from './Components/mainContent';
 import aboutimage from './images/t.svg'
-import aboutimage1 from './images/c.svg';
+import aboutimage1 from './images/s.svg';
 import Contact from './Components/Contact';
 import './App.scss'
 
