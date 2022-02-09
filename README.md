@@ -11,6 +11,12 @@ I have to make a banking website and Login SignUp form which is resposive using 
 * VS CODE (IDE)
 * Netlify
 
+## 🧧 Some Glimpse of Commit -
+
+![Pic1](preview/1.png)
+![Pic2](preview/2.png)
+
+
 ## ✨HOSTED LINK 
  - https://saltpe-abhishekrawe.netlify.app/
 
